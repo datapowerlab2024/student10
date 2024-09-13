@@ -1,0 +1,23 @@
+{
+  "@build":"365335",
+  "@timestamp":"Fri Sep 13 04:55:44 2024",
+  "configuration":[
+    {
+      "GitOpsTemplate":{
+        "@name":"FSHPort",
+        "mAdminState":"enabled",
+        "Templates":[
+          {
+            "TemplateType":"change",
+            "ClassName":"HTTPSSourceProtocolHandler",
+            "Name":"fsh-https-gitops",
+            "Field":"LocalPort",
+            "Value":"9460",
+            "ValueInverse":null,
+            "ValueValidate":null
+          }
+        ]
+      }
+    }
+  ]
+}
